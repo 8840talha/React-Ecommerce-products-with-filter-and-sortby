@@ -1,0 +1,57 @@
+.paper {
+    height: 500px;
+    margin: 10px;
+}
+
+.h3 {
+    font-family: lato;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 35px
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.p {
+    color: cyan;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.Btn {
+    height: 35px;
+    width: 50px;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+input {
+    margin-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none
+}
+
+.resultContainer {
+    display: flex;
+    justify-content: center;
+}
